@@ -1,0 +1,82 @@
+h1{
+    height: 30px;
+}
+.item{  background-color: darkseagreen;
+        padding:10px;  
+        border:  1px solid blue;
+    }  
+.cabecera{
+    grid-area: cabecera;
+    }
+
+.cabecera button{
+    display: flex;
+    align-content: flex-end;
+  
+}
+.izquierdo{
+    grid-area: izquierdo;
+    text-align: center;
+}
+.contenido{
+    grid-area: contenido;
+}
+.pie{
+    grid-area: pie;
+    text-align: center;
+}
+.contenedor{  
+    display:  grid;  
+    grid-template-rows: 100px 1fr 80px;  
+    grid-template-columns: 790px 1fr;
+    /*grid-template:  100px  1fr  150px  /  300px  1fr;*/
+    grid-gap:  5px;  
+    height:  90vh;  
+    grid-template-areas:  "cabecera  cabecera"
+                          "izquierdo  contenido" 
+                          "pie  pie"
+
+}
+
+#formulario{
+    text-align: center;
+    margin: auto;
+	width: 60%;
+	max-width: 500px;
+	background: #F3F3F3;
+	padding: 40px;
+    border: 1px solid rgba(0,0,0,0.2);
+   
+}
+input {
+	display: block;
+	padding: 3px;
+	width: 100%;
+	margin: 10px 0;
+	font-size: 25px;
+}
+input[type="submit"]{
+	background: linear-gradient(red, #CD1111);
+	border: 0;
+	color: white;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+#img1{
+    margin: 10px auto;
+    width: 400px;
+    height: 270px;
+}
+#img2{
+    margin: 10px auto;
+    width: 400px;
+    height: 270px;
+}
+#img3{
+    margin: 10px auto;
+    width: 400px;
+    height: 270px;
+}

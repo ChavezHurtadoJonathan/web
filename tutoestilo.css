@@ -1,0 +1,50 @@
+p{
+    color: #FF5733;
+    font-family: "Arial", serif;
+}
+
+p1{
+    color:#6B0606;
+    font-family: "Arial", serif;
+}
+
+p2{
+    color: #070707;
+    font-family: "Arial", serif;  
+}
+
+h2{
+    color:#CD5C5C;
+    font-family: "Arial", serif;  
+    text-shadow: 0 0 0.2em #8877ff
+
+}
+h1{
+    color: #FF5733;  
+    font-size: 30px;
+    font: 200% sans-serif;
+    text-shadow: 0 0 0.2em #8877ff
+  
+}
+td, table, tr{
+    background-color:  #DAF7A6;
+}
+
+button{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 25px;
+    font-style: italic;
+    color: #006505;
+    background-color: #82b085;
+    border-radius: 15px;
+    border: 3px double #006505;
+}
+.tutoria{
+    height: 30px;
+    border: #070707;
+}
